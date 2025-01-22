@@ -1,0 +1,70 @@
+/*Styles Page*/
+/* 
+Include, at the minimum, these CSS properties:
+
+color
+background-color
+font-size
+font-family
+
+font-weight
+font-style
+text-align
+text-decoration
+line-height
+letter-spacing
+width
+height
+max-width or min-width
+max-height or min-height
+*/
+
+body {
+  background-color: #f1f1f1;
+  color: #7c3c18;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: size 2em;
+  text-align: center;
+}
+section > p,
+section > blockquote {
+  line-height: 1.5;
+}
+
+#favorite-character {
+  font-weight: 600;
+}
+
+ol > li > span#favorite-movie {
+  font-style: italic;
+}
+
+.strike-text {
+  text-decoration: line-through;
+}
+
+code {
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 0.07em;
+}
+
+section#description-section,
+section#fact-section {
+  background-color: #ffb286;
+  width: 80%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: pink;
+}
+
+#description-section img {
+  /* height: auto; */
+  max-width: 100%;
+  min-height: 120px;
+}

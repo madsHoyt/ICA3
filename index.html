@@ -1,0 +1,113 @@
+<!--
+Include, at the minimum, these CSS properties:
+
+color
+background-color
+font-size
+font-family
+font-weight
+font-style
+text-align
+text-decoration
+line-height
+letter-spacing
+width
+height
+max-width or min-width
+max-height or min-height
+-->
+
+
+<!-- Name: Madison Hoyt (mh2323)-->
+<!-- Assignment: ICA 2 -->
+<!-- Date: 1/18/25-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+    <title>How To Train Your Dragon Fandom</title>
+  </head>
+  <body>
+    <!--Header of the Website-->
+    <section id="header-section">
+      <h1>How To Train Your Dragon</h1>
+    </section>
+
+    <!--Intro about the Movie-->
+    <section id="description-section">
+      <h2>All About How To Train Your Dragon</h2>
+      <button
+        onclick="document.getElementById('fact-section').scrollIntoView({ behavior: 'smooth' });"
+      >
+        Scroll to Facts
+      </button>
+      <p>
+        How to Train Your Dragon is a captivating tale set in the Viking village
+        of Berk, where <span class="strike-text">dragons are considered fierce enemies. </span> The story follows
+        Hiccup, a clever but clumsy young Viking, who dreams of earning his
+        place among his tribe by slaying a dragon. However, when Hiccup
+        encounters and befriends a wounded Night Fury dragon named Toothless, he
+        discovers that dragons are not the monsters they seem. Through their
+        bond, Hiccup learns about trust, courage, and breaking long-standing
+        traditions. Together, they challenge the misconceptions of their world
+        and prove that friendship can conquer fear.
+      </p>
+
+      <!--To find the directories automatically just do / in the src-->
+      <a
+        href="https://www.imdb.com/title/tt26743210/?ref_=nv_sr_srsg_1_tt_7_nm_0_in_0_q_how%2520to%2520train%2520your%2520"
+        target="_blank"
+      >
+        <img
+          src="./toothless2.jpg"
+          alt="Toothless and Hiccup on a cliff"
+          width="500px"
+        />
+      </a>
+      <br />
+    </section>
+
+    <!--Facts about the Movie-->
+    <section id="fact-section">
+      <!--Characters section-->
+      <h3>Characters</h3>
+      <ul>
+        <li>Hiccup</li>
+        <li><span id="favorite-character">Toothless </span>(favorite character)</li>
+        <li>Astrid</li>
+      </ul>
+
+      <!--Movies in the Sequence Section-->
+      <h3>Movies in the Sequence</h3>
+      <!--ol>li*3 short hand-->
+      <ol>
+        <li><span id="favorite-movie">How To Train Your Dragon </span> (my favorite movie) </li>
+        <li>How To Train Your Dragon 2</li>
+        <li>How to Train Your Dragon: The Hidden World</li>
+      </ol>
+
+      <!--Quotes-->
+      <h3>Quotes</h3>
+      <blockquote>
+        "I wouldn't kill him, because he looked as frightened as I was."
+        <br />
+        - Hiccup
+      </blockquote>
+      <q>This... is Berk.</q>- Stoick the Vast
+
+      <br />
+      <br />
+      <code>console.log("Well, it runs in the family.")</code>
+      <br />
+      <br />
+      <p>
+        Everything we know about you guys is wrong.
+        <br />
+        <span style="color: blueviolet">Hiccup</span>
+      </p>
+    </section>
+  </body>
+</html>
