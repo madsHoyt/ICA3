@@ -1,33 +1,21 @@
-<!--
-Include, at the minimum, these CSS properties:
-
-color
-background-color
-font-size
-font-family
-font-weight
-font-style
-text-align
-text-decoration
-line-height
-letter-spacing
-width
-height
-max-width or min-width
-max-height or min-height
+<!-- 
+Requirements:
+- Update page count. Create three pages, an index.html and two other .html files that you may name according to the content of your site. There should be proper navigation for all possible paths between the pages.
+- Organize Files. Move all your images to an 'img' folder and CSS to a 'styles' folder. Update file paths in your HTML.
+- Write Notes. Add a notes.txt file in the root folder. Write one paragraph each on your experience learning HTML, CSS, and Git thus far in the course.
+- Set Up Git and GitHub. Initialize a Git repository and make at least 3 commits. Add a .gitignore file and exclude notes.txt. Push your project to a public GitHub repository. Host your site using GitHub Pages. 
 -->
 
-
 <!-- Name: Madison Hoyt (mh2323)-->
-<!-- Assignment: ICA 2 -->
-<!-- Date: 1/18/25-->
+<!-- Assignment: ICA 3 -->
+<!-- Date: 1/22/25-->
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" type="text/css">
+    <link rel="stylesheet" href="/styles/styles.css" type="text/css" />
     <title>How To Train Your Dragon Fandom</title>
   </head>
   <body>
@@ -46,14 +34,15 @@ max-height or min-height
       </button>
       <p>
         How to Train Your Dragon is a captivating tale set in the Viking village
-        of Berk, where <span class="strike-text">dragons are considered fierce enemies. </span> The story follows
-        Hiccup, a clever but clumsy young Viking, who dreams of earning his
-        place among his tribe by slaying a dragon. However, when Hiccup
-        encounters and befriends a wounded Night Fury dragon named Toothless, he
-        discovers that dragons are not the monsters they seem. Through their
-        bond, Hiccup learns about trust, courage, and breaking long-standing
-        traditions. Together, they challenge the misconceptions of their world
-        and prove that friendship can conquer fear.
+        of Berk, where
+        <span class="strike-text">dragons are considered fierce enemies. </span>
+        The story follows Hiccup, a clever but clumsy young Viking, who dreams
+        of earning his place among his tribe by slaying a dragon. However, when
+        Hiccup encounters and befriends a wounded Night Fury dragon named
+        Toothless, he discovers that dragons are not the monsters they seem.
+        Through their bond, Hiccup learns about trust, courage, and breaking
+        long-standing traditions. Together, they challenge the misconceptions of
+        their world and prove that friendship can conquer fear.
       </p>
 
       <!--To find the directories automatically just do / in the src-->
@@ -62,7 +51,7 @@ max-height or min-height
         target="_blank"
       >
         <img
-          src="./toothless2.jpg"
+          src="/img/toothless2.jpg"
           alt="Toothless and Hiccup on a cliff"
           width="500px"
         />
@@ -76,7 +65,9 @@ max-height or min-height
       <h3>Characters</h3>
       <ul>
         <li>Hiccup</li>
-        <li><span id="favorite-character">Toothless </span>(favorite character)</li>
+        <li>
+          <span id="favorite-character">Toothless </span>(favorite character)
+        </li>
         <li>Astrid</li>
       </ul>
 
@@ -84,7 +75,10 @@ max-height or min-height
       <h3>Movies in the Sequence</h3>
       <!--ol>li*3 short hand-->
       <ol>
-        <li><span id="favorite-movie">How To Train Your Dragon </span> (my favorite movie) </li>
+        <li>
+          <span id="favorite-movie">How To Train Your Dragon </span> (my
+          favorite movie)
+        </li>
         <li>How To Train Your Dragon 2</li>
         <li>How to Train Your Dragon: The Hidden World</li>
       </ol>
