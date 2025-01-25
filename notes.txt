@@ -1,3 +1,0 @@
-<!--
-Write Notes. Add a notes.txt file in the root folder. Write one paragraph each on your experience learning HTML, CSS, and Git thus far in the course.
--->
